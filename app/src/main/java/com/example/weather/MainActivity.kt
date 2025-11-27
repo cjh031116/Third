@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        val apiKey = "55151a9a13f97d49d7ee88ef7f4f6dce"
+        val apiKey = "YOUR_API_KEY"
         if (apiKey == "YOUR_API_KEY") {
             Toast.makeText(this, "请替换为你的 API Key", Toast.LENGTH_LONG).show()
             return
